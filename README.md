@@ -1,6 +1,23 @@
 # selenosis-deploy
 selenosis kubernetes deployment
 
+## Pre-requiste
+- Docker [https://docs.docker.com/]
+- Text Editor
+- Homebrew for mac [https://docs.brew.sh/Installation]
+
+## Installation
+- Install Minikube
+```brew install minikube```
+- Install kubernetes-cli to control kubernetes deployments from terminal
+  ```brew install kubernetes-cli```
+- Start minikube (We will make use of minikube with docker)
+  ```minikube start --vm-driver=docker --insecure-registry="gcr.io" --kubernetes-version=v1.25.0```
+
+## Easy way to start
+- Run below command. (Already configured all the below commands in the shell file)
+  ```sh start.sh```
+
 ## Clone deployment files
 ``` bash
 git clone https://github.com/alcounit/selenosis-deploy.git && cd selenosis-deploy
