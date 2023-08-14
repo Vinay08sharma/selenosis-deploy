@@ -8,15 +8,23 @@ selenosis kubernetes deployment
 
 ## Installation
 - Install Minikube
-```brew install minikube```
+  ``` bash
+  brew install minikube
+  ```
 - Install kubernetes-cli to control kubernetes deployments from terminal
-  ```brew install kubernetes-cli```
+  ``` bash
+  brew install kubernetes-cli
+  ```
 - Start minikube (We will make use of minikube with docker)
-  ```minikube start --vm-driver=docker --insecure-registry="gcr.io" --kubernetes-version=v1.25.0```
+  ``` bash
+  minikube start --vm-driver=docker --insecure-registry="gcr.io" --kubernetes-version=v1.25.0
+  ```
 
 ## Easy way to start
 - Run below command. (Already configured all the below commands in the shell file)
-  ```sh start.sh```
+  ``` bash
+  sh start.sh
+  ```
 
 ## Clone deployment files
 ``` bash
