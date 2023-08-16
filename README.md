@@ -1,5 +1,5 @@
 # selenosis-deploy
-selenosis kubernetes deployment
+selenosis kubernetes deployment. Check out the blog for better understaning [https://vinayksharma.medium.com/scaling-selenium-tests-using-selenoid-selenosis-2528d0ff0442]
 
 ## Pre-requiste
 - Docker [https://docs.docker.com/]
