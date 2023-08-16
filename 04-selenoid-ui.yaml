@@ -30,7 +30,7 @@ spec:
               memory: "64Mi"
             requests:
               cpu: "0.05"
-              memory: "64Mi"          
+              memory: "64Mi"
           ports:
             - containerPort: 8080
               name: http
@@ -62,7 +62,7 @@ spec:
       port: 8080
       targetPort: 8080
       protocol: TCP
-      nodePort: 30009
+      nodePort: 32000
   selector:
     app: selenoid-ui
   sessionAffinity: None
@@ -89,4 +89,3 @@ spec:
               number: 8080
         path: /
         pathType: Prefix
-
