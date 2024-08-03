@@ -110,3 +110,18 @@ If external IP is not assigned for selenoid-ui use kubernetes node as access poi
  
 <b>selenoid-ui:</b> <br/>
 http://<loadBalancerIP|nodeIP>:<8080|32000>/
+
+### Accessing the selenoid-ui Service
+If you're running Kubernetes on Minikube, you can access the selenoid-ui service using the following steps:
+
+Get the Service URL:
+
+Run the following command to get the URL for accessing the selenoid-ui service:
+
+```bash
+minikube service selenoid-ui -n selenosis --url
+This command will provide you with the URL to access the service.
+```
+
+#### Access the Service:
+Open your web browser and navigate to the URL provided by the command.
